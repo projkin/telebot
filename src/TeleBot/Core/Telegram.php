@@ -1,7 +1,5 @@
 <?php namespace Projkin\TeleBot\Core;
 
-use DataBase;
-
 class Telegram
 {
              
@@ -16,7 +14,6 @@ class Telegram
         $database = new DataBase();
         return $database->getDB();
     }
-
 
 
 }
