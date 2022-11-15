@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Projkin\\TelegramBot\\' => array($baseDir . '/*'),
+    'Projkin\\TeleBot\\' => array($baseDir . '/src'),
 );

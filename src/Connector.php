@@ -1,4 +1,4 @@
-<?php namespace TelegramBot;
+<?php namespace Projkin\TeleBot;
 
 class Connector {
 
@@ -13,6 +13,6 @@ class Connector {
         return;
     }
 
-    
+
 
 }   

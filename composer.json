@@ -1,5 +1,5 @@
 {
-    "name": "projkin/telegram-bot",
+    "name": "projkin/telebot",
     "type": "library",
     "description": "PHP Telegram Bot",
     "keywords": ["telegram", "bot", "api"],
@@ -15,7 +15,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Projkin\\TelegramBot\\": "src\\"
+            "Projkin\\TeleBot\\": "src\\"
         }
     }
 }

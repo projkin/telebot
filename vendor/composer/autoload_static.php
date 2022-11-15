@@ -9,14 +9,14 @@ class ComposerStaticInit1f54c02722ca5b1008e295209f9ac3cf
     public static $prefixLengthsPsr4 = array (
         'P' => 
         array (
-            'Projkin\\TelegramBot\\' => 20,
+            'Projkin\\TeleBot\\' => 16,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Projkin\\TelegramBot\\' => 
+        'Projkin\\TeleBot\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/*',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
