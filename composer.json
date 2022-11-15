@@ -16,7 +16,7 @@
         "longman/telegram-bot": "*"
     },
 
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
 
     "autoload": {
