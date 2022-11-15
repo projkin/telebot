@@ -3,8 +3,7 @@ namespace Projkin\TelegramBot;
 
 class Bot {
 
-public function get()
-{
+public function get() {
     return 'TelegramBot GET';
 }
 
