@@ -5,7 +5,7 @@ class Bot {
 
 public function get()
 {
-    return 'TelegramBot GET'
+    return 'TelegramBot GET';
 }
 
     
