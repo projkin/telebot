@@ -16,7 +16,7 @@ class ComposerStaticInit1f54c02722ca5b1008e295209f9ac3cf
     public static $prefixDirsPsr4 = array (
         'Projkin\\TeleBot\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/src/TeleBot',
         ),
     );
 

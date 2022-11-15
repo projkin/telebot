@@ -3,7 +3,7 @@
         'name' => 'projkin/telebot',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'd78ac938eee91c8df5f324b4164b11b920be1959',
+        'reference' => '3a2d40ce46fd1fd4551fba0369cb1059e60de44c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'projkin/telebot' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'd78ac938eee91c8df5f324b4164b11b920be1959',
+            'reference' => '3a2d40ce46fd1fd4551fba0369cb1059e60de44c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
