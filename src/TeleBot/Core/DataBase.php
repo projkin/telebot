@@ -1,4 +1,4 @@
-<?php namespace TeleBot\Core;
+<?php namespace Projkin\TeleBot\Core;
 
 class DB 
 {
