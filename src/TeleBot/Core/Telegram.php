@@ -2,7 +2,7 @@
 
 use DataBase;
 
-class Core
+class Telegram
 {
     
     public $db;         
