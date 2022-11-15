@@ -1,0 +1,18 @@
+{
+    "name": "projkin/telegram-bot",
+    "type": "library",
+    "description": "PHP Telegram Bot",
+    "keywords": ["telegram", "bot", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Projkin",
+            "email": "tg@gmail.com",
+            "homepage": "http://siteincity.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "longman/telegram-bot": "*"
+    }
+}

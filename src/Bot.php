@@ -8,7 +8,10 @@ public function get() {
 }
 
   
-
+public function test($gggg)
+{
+    # code...
+}
 
 
 
