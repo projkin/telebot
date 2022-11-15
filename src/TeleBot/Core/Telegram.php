@@ -1,25 +1,20 @@
 <?php namespace Projkin\TeleBot\Core;
 
+use DataBase;
+
 class Telegram
 {
-    
-    public $db;         
-
-    public function __construct(DataBase $db)
-    {
-        $this->db = $db;
-    }
-
-
+             
     public function getCore()
     {
         return 'GET Core';
     }
 
 
-    public function getCoreDB()
+    public function getDataBase()
     {
-        return $this->db;
+        $database = new DataBase();
+        return $database->getDB();
     }
 
 
