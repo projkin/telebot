@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'projkin/telegram-bot',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => '810645a1ffcc285329fb96b984c20f265160d4d1',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'f39cef9521e107f7c2dfcd39360991fc1a6a71cd',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -47,9 +47,9 @@
             'dev_requirement' => false,
         ),
         'projkin/telegram-bot' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '810645a1ffcc285329fb96b984c20f265160d4d1',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'f39cef9521e107f7c2dfcd39360991fc1a6a71cd',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
