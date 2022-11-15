@@ -1,7 +1,5 @@
 <?php namespace Projkin\TeleBot\Core;
 
-use DataBase;
-
 class Telegram
 {
     
