@@ -13,11 +13,9 @@
         }
     ],
     "require": {
+        "projkin/telegram-bot": "*",
         "longman/telegram-bot": "*"
     },
-
-    "minimum-stability": "dev",
-    "prefer-stable": true,
 
     "autoload": {
         "psr-4": {
