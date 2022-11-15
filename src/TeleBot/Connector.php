@@ -7,10 +7,9 @@ class Connector {
     }
 
     
-    public function test($gggg)
+    public function test()
     {
-        # code...
-        return;
+        return 444444444;
     }
 
 
