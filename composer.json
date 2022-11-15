@@ -12,10 +12,7 @@
             "role": "Developer"
         }
     ],
-    "require": {
-        "projkin/telegram-bot": "*",
-        "longman/telegram-bot": "*"
-    },
+    "require": {},
 
     "autoload": {
         "psr-4": {
