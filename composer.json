@@ -12,7 +12,10 @@
             "role": "Developer"
         }
     ],
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "ext-json": "*"
+    },
 
     "minimum-stability": "dev",
     "prefer-stable": true,
