@@ -33,11 +33,11 @@ class Message extends Entity
     protected function subEntities()
     {
         return [
-            'from'      => User::class,
-            'photo'     => [PhotoSize::class],
-            'chat'      => Chat::class,
-            'sticker'   => Sticker::class,
-            //'file' => File::class,
+            'from'          => User::class,
+            'photo'         => [PhotoSize::class],
+            'chat'          => Chat::class,
+            'sticker'       => Sticker::class,
+            'reply_markup'  => InlineKeyboard::class,
         ];
     }
 

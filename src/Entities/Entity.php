@@ -86,6 +86,12 @@ abstract class Entity
     }
 
 
+    public function toArray()
+    {
+        return (array) $this;
+    }
+
+
     protected function subEntities()
     {
         return [];

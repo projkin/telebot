@@ -1,6 +1,7 @@
 <?php namespace Projkin\TeleBot;
 
 use Projkin\TeleBot\Core\Client;
+use Projkin\TeleBot\Entities\Entity;
 use Projkin\TeleBot\Exception\TeleBotException;
 
 class TeleBot {
@@ -26,9 +27,13 @@ class TeleBot {
     }
 
 
-    public function response(string $command, array $data = [])
+    public function response(string $command, $data)
     {
-        return $this->client->request($command, $data);
+        $requestData = $data;
+        if (is_object($data) && $data instanceof Entity) {
+            $requestData = $data->toArray();
+        }
+        return $this->client->request($command, $requestData);
     }
 
 
