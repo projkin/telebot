@@ -18,6 +18,7 @@ class ComposerStaticInit1f54c02722ca5b1008e295209f9ac3cf
         array (
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
+            'Projkin\\Test\\' => 13,
             'Projkin\\TeleBot\\' => 16,
         ),
         'G' => 
@@ -31,16 +32,20 @@ class ComposerStaticInit1f54c02722ca5b1008e295209f9ac3cf
     public static $prefixDirsPsr4 = array (
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
+        'Projkin\\Test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/test',
+        ),
         'Projkin\\TeleBot\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/TeleBot',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (

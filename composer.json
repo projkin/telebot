@@ -14,7 +14,8 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "^7.5",
-        "ext-json": "*"
+        "ext-json": "*",
+        "ext-mbstring": "*"
     },
 
     "minimum-stability": "dev",
@@ -22,7 +23,8 @@
     
     "autoload": {
         "psr-4": {
-            "Projkin\\TeleBot\\": "src\\TeleBot"
+            "Projkin\\TeleBot\\": "src\\",
+            "Projkin\\Test\\": "test\\"
         }
     }
 }
